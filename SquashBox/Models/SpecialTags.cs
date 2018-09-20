@@ -11,6 +11,6 @@ namespace SquashBox.Models
         public int Id { get; set; }
 
         [Required]
-        public string TagName { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -18,7 +18,7 @@
     <table class="table table-striped border">
         <tr class="table-info">
             <th>
-                @Html.DisplayNameFor(m=>m.TagName)
+                @Html.DisplayNameFor(m=>m.Name)
             </th>
             <th></th>
             <th></th>
@@ -28,7 +28,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(m=>item.TagName)
+                    @Html.DisplayFor(m=>item.Name)
                 </td>
                 <td>
                     <partial name="_TableButtonPartial" model="item.Id" />
