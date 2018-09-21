@@ -19,7 +19,7 @@ namespace SquashBox.Models
 
         public string Image { get; set; }
 
-        public string ShadeColor { get; set; }
+        public string CustomText { get; set; }
 
         [Display(Name="Product Type")]
         public int ProductTypeId { get; set; }

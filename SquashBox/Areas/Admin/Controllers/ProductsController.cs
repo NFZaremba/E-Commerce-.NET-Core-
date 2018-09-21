@@ -158,7 +158,7 @@ namespace SquashBox.Controllers
                 productFromDb.Available = ProductsVM.Products.Available;
                 productFromDb.ProductTypeId = ProductsVM.Products.ProductTypeId;
                 productFromDb.SpecialTagsId = ProductsVM.Products.SpecialTagsId;
-                productFromDb.ShadeColor = ProductsVM.Products.ShadeColor;
+                productFromDb.CustomText = ProductsVM.Products.CustomText;
                 await _db.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
